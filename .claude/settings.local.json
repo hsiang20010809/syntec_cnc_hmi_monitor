@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:hackmd.io)",
+      "WebFetch(domain:www.104.com.tw)",
+      "WebFetch(domain:www.dcard.tw)",
+      "WebFetch(domain:salary.tw)",
+      "WebFetch(domain:interview.tw)"
+    ]
+  }
+}
