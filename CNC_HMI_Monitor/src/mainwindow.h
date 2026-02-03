@@ -41,9 +41,9 @@ private slots:
 private:
     // UI 建立函數
     void setupUI();
-    void setupStatusPanel();
-    void setupCoordinatePanel();
-    void setupControlPanel();
+    QGroupBox* createStatusPanel();
+    QGroupBox* createCoordinatePanel();
+    QGroupBox* createControlPanel();
     void setupChartPanel();
     void applyStyles();
 

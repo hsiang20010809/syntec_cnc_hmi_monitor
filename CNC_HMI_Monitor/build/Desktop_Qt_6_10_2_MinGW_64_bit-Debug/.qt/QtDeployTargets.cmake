@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_CNC_HMI_Client_FILE C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/bin/CNC_HMI_Client.exe)
+set(__QT_DEPLOY_TARGET_CNC_HMI_Client_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_CNC_HMI_Client_RUNTIME_DLLS D:/Qt/6.10.2/mingw_64/bin/Qt6Network.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Charts.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6OpenGLWidgets.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Widgets.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6OpenGL.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Gui.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_CNC_Mock_Server_FILE C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/bin/CNC_Mock_Server.exe)
+set(__QT_DEPLOY_TARGET_CNC_Mock_Server_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_CNC_Mock_Server_RUNTIME_DLLS D:/Qt/6.10.2/mingw_64/bin/Qt6Network.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Core.dll)

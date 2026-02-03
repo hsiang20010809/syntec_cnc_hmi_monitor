@@ -56,15 +56,8 @@ void MainWindow::setupUI()
     QHBoxLayout *topLayout = new QHBoxLayout();
     topLayout->setSpacing(15);
 
-    setupStatusPanel();
-    setupCoordinatePanel();
-
-    // 取得群組框
-    QGroupBox *statusGroup = findChild<QGroupBox*>("statusGroup");
-    QGroupBox *coordGroup = findChild<QGroupBox*>("coordGroup");
-
-    topLayout->addWidget(statusGroup, 1);
-    topLayout->addWidget(coordGroup, 1);
+    topLayout->addWidget(createStatusPanel(), 1);
+    topLayout->addWidget(createCoordinatePanel(), 1);
     mainLayout->addLayout(topLayout);
 
     // 中間：圖表
@@ -72,15 +65,12 @@ void MainWindow::setupUI()
     mainLayout->addWidget(m_chartView, 1);
 
     // 底部：控制面板
-    setupControlPanel();
-    QGroupBox *controlGroup = findChild<QGroupBox*>("controlGroup");
-    mainLayout->addWidget(controlGroup);
+    mainLayout->addWidget(createControlPanel());
 }
 
-void MainWindow::setupStatusPanel()
+QGroupBox* MainWindow::createStatusPanel()
 {
-    QGroupBox *group = new QGroupBox("Machine Status");
-    group->setObjectName("statusGroup");
+    QGroupBox *group = new QGroupBox("Machine Status", this);
 
     QGridLayout *layout = new QGridLayout(group);
     layout->setSpacing(10);
@@ -116,12 +106,12 @@ void MainWindow::setupStatusPanel()
     layout->addWidget(m_modeLabel, 3, 1, 1, 2);
 
     layout->setColumnStretch(2, 1);
+    return group;
 }
 
-void MainWindow::setupCoordinatePanel()
+QGroupBox* MainWindow::createCoordinatePanel()
 {
-    QGroupBox *group = new QGroupBox("Position");
-    group->setObjectName("coordGroup");
+    QGroupBox *group = new QGroupBox("Position", this);
 
     QGridLayout *layout = new QGridLayout(group);
     layout->setSpacing(15);
@@ -163,12 +153,12 @@ void MainWindow::setupCoordinatePanel()
     layout->addWidget(zUnit, 2, 2);
 
     layout->setColumnStretch(1, 1);
+    return group;
 }
 
-void MainWindow::setupControlPanel()
+QGroupBox* MainWindow::createControlPanel()
 {
-    QGroupBox *group = new QGroupBox("Connection");
-    group->setObjectName("controlGroup");
+    QGroupBox *group = new QGroupBox("Connection", this);
 
     QHBoxLayout *layout = new QHBoxLayout(group);
     layout->setSpacing(15);
@@ -205,6 +195,7 @@ void MainWindow::setupControlPanel()
     m_connectionStatusLabel = new QLabel("Disconnected");
     m_connectionStatusLabel->setObjectName("connectionStatus");
     layout->addWidget(m_connectionStatusLabel);
+    return group;
 }
 
 void MainWindow::setupChartPanel()

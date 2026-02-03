@@ -131,7 +131,7 @@ QByteArray MockServer::generateMachineData()
         m_spindleRpm = 0;
         m_feedRate = 0;
         break;
-    case 1:  // RUNNING
+    case 1: {  // RUNNING
         stateStr = "RUNNING";
         // 模擬主軸轉速變化 (2800-3200 RPM)
         m_spindleRpm = 3000 + QRandomGenerator::global()->bounded(-200, 201);
@@ -143,6 +143,7 @@ QByteArray MockServer::generateMachineData()
         m_posY = 100.0 + 50.0 * qSin(angle);
         m_posZ = -10.0 + 5.0 * qSin(angle * 0.5);
         break;
+    }
     case 2:  // PAUSED
         stateStr = "PAUSED";
         // 主軸減速

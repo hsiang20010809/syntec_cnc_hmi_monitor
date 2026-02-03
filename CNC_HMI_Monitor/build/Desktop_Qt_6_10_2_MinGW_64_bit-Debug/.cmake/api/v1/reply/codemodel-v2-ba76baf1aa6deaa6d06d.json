@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CNC_HMI_Monitor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CNC_HMI_Client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNC_HMI_Client-Debug-86b6d04192c6948ba99b.json",
+					"name" : "CNC_HMI_Client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CNC_HMI_Client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNC_HMI_Client_autogen-Debug-8e98070d2981b081e059.json",
+					"name" : "CNC_HMI_Client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CNC_HMI_Client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNC_HMI_Client_autogen_timestamp_deps-Debug-76fdd3390899d5192fe2.json",
+					"name" : "CNC_HMI_Client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CNC_Mock_Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNC_Mock_Server-Debug-4b4519d1b9608a5eecca.json",
+					"name" : "CNC_Mock_Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CNC_Mock_Server_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNC_Mock_Server_autogen-Debug-e1240c6c5c8d3eddc62f.json",
+					"name" : "CNC_Mock_Server_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CNC_Mock_Server_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CNC_Mock_Server_autogen_timestamp_deps-Debug-e62854d9c65848342c9e.json",
+					"name" : "CNC_Mock_Server_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

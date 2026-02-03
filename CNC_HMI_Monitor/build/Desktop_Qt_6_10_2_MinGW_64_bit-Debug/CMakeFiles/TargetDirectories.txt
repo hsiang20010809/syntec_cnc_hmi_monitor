@@ -1,0 +1,8 @@
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/CNC_HMI_Client.dir
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/CNC_Mock_Server.dir
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/CNC_HMI_Client_autogen_timestamp_deps.dir
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/CNC_HMI_Client_autogen.dir
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/CNC_Mock_Server_autogen_timestamp_deps.dir
+C:/Users/user/Desktop/syntec_project/CNC_HMI_Monitor/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/CNC_Mock_Server_autogen.dir
