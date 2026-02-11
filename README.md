@@ -1,6 +1,6 @@
 # CNC HMI Monitor
 
-CNC 設備監控人機介面 - 新代科技面試專案
+CNC 設備監控人機介面
 
 ## 專案說明
 
@@ -96,7 +96,7 @@ CNC_HMI_Monitor/
 
 ## 作者
 
-面試專案 - 新代科技 52軟體研發工程師
+chihsiang
 
 ## 授權
 
