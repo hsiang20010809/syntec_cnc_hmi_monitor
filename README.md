@@ -67,9 +67,6 @@ cmake --build .
 CNC_HMI_Monitor/
 ├── CMakeLists.txt          # CMake 建置設定
 ├── README.md               # 本文件
-├── docs/
-│   ├── PROJECT_PLAN.md     # 專案規劃文檔
-│   └── TECHNICAL_TUTORIAL.md # 技術教學文檔
 ├── src/                    # HMI Client 原始碼
 │   ├── main.cpp
 │   ├── mainwindow.h/cpp
